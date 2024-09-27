@@ -99,7 +99,7 @@ The project involved the following steps:
 
 ### Insights
 Based on the analysis of the MBA admission dataset and the Tableau dashboard, several key insights have been drawn:
-![MBA Admission Outcomes Dashboard](Dashboard Screenshot.png)
+![MBA Admission Outcomes Dashboard]((https://1drv.ms/i/c/525fa29fbbe2fd5e/EZj0UrmAbmpGt1LagISf0LgBysIE9WrEH7erZ9_xMgPhTQ?e=kazStF))
 
 ### 1. Work Experience and Admission Outcome
    - The analysis shows that applicants who were admitted or waitlisted had an average of around 5 years of work experience, which is slightly higher than those who were denied.
