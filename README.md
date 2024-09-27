@@ -95,4 +95,38 @@ The project involved the following steps:
    GROUP BY major;
    ```
 
+## Conclusions
+
+### Insights
+Based on the analysis of the MBA admission dataset and the Tableau dashboard, several key insights have been drawn:
+
+### 1. Work Experience and Admission Outcome
+   - The analysis shows that applicants who were admitted or waitlisted had an average of around 5 years of work experience, which is slightly higher than those who were denied.
+   - **Conclusion**: Applicants with more work experience have a better chance of being admitted or waitlisted. This suggests that work experience plays an important role in the admission decision process.
+
+### 2. GPA and GMAT Scores Across Admission Outcomes
+   - The average GPA and GMAT scores increase progressively from applicants who were denied, to those who were waitlisted, and finally to those who were admitted.
+   - **Conclusion**: Higher GPAs and GMAT scores are positively correlated with better admission outcomes. This indicates that academic performance and standardized test scores are critical factors in securing admission.
+
+### 3. Applicant Distribution by Major
+   - Among admitted students, applicants from Humanities majors had a higher admission rate compared to Business and STEM majors.
+   - **Conclusion**: The admissions process appears to be balanced in terms of academic backgrounds, and applicants from Humanities fields had relatively strong chances of being admitted. This suggests that the admissions committee values diverse academic perspectives and not just quantitative or business-related majors.
+
+### 4. International vs. Domestic Students
+   - The analysis shows that domestic students were admitted at a much higher rate compared to international students.
+   - **Conclusion**: International applicants face additional challenges in the admissions process, as the data reveals that a smaller proportion of international students were admitted compared to domestic students. This may indicate a higher level of competition or other barriers for international applicants.
+
+### 5. Total Applicant Breakdown
+   - The overall distribution of applicants shows that the majority were either waitlisted or denied, with a smaller portion being admitted.
+   - **Conclusion**: The MBA admissions process is highly selective, with only a small percentage of applicants securing admission. This reflects the competitive nature of the program and the high standards maintained by the admissions committee.
+
+### 6. Key Factors for Admission
+   - In summary, the key factors influencing admission decisions include:
+     - **Higher GPA and GMAT scores**: These were significant predictors of admission success.
+     - **More work experience**: Applicants with 5 or more years of work experience were more likely to be admitted or waitlisted.
+     - **Academic background**: Humanities majors seemed to have an edge in admissions compared to Business and STEM majors.
+     - **Domestic applicants**: Domestic students had higher admission rates compared to international students.
+
+   - **Overall Insight**: To improve chances of admission, prospective applicants should focus on maximizing their academic performance (GPA, GMAT) and gaining significant professional work experience. However, international students should also be aware of potential additional competition or challenges in the admissions process.
+
 
