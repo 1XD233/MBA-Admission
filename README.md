@@ -16,7 +16,6 @@ The following tools were employed for the analysis:
 - **SQL**: To extract and manipulate the data from the dataset.
 - **Tableau**: For creating an interactive dashboard with visualizations such as charts and graphs.
 - **Excel**: For data pre-processing and storage.
-- **Python**: For exploratory data analysis and insights (if applicable).
 
 ## The Analysis
 The project involved the following steps:
@@ -24,9 +23,14 @@ The project involved the following steps:
 1. **Data Collection**:
    - The dataset was collected from Kaggle. It contains synthetic information for applicants to the Wharton Class of 2025.
 
-2. **Data Cleaning**:
-   - Missing values in certain columns (e.g., race, work industry) were handled appropriately.
-   - Inconsistent or incorrect data points were fixed to ensure the accuracy of the analysis.
+2. **SQL Queries and Insights**:
+   - Using SQL, I extracted key insights from the dataset. Below are four key areas of analysis:
 
-3. **SQL Queries**:
-   - Using SQL, I extracted key insights from the dataset, such as the distribution of applicants across different majors, the average GMAT scores, and the relationship between work experience and admission decisions.
+### Part 1: Distribution of Admission Decisions
+   - The first analysis looked at the overall distribution of admission decisions (Admit, Waitlist, Deny) among all applicants. The insights show how many applicants were admitted, waitlisted, and denied.
+   
+   SQL Query:
+   ```sql
+   SELECT admission, COUNT(*)
+   FROM mba_admission
+   GROUP BY admission;
