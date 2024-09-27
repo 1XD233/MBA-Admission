@@ -34,3 +34,6 @@ The project involved the following steps:
    SELECT admission, COUNT(*)
    FROM mba_admission
    GROUP BY admission;
+
+### Part 2: Gender Distribution of Admitted Applicants
+The second analysis examined the distribution of admitted students by gender. This helps identify the proportion of male and female applicants who were admitted. The query showed how gender may influence the likelihood of admission.
