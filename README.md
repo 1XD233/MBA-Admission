@@ -34,6 +34,65 @@ The project involved the following steps:
    SELECT admission, COUNT(*)
    FROM mba_admission
    GROUP BY admission;
+   ```
 
 ### Part 2: Gender Distribution of Admitted Applicants
-The second analysis examined the distribution of admitted students by gender. This helps identify the proportion of male and female applicants who were admitted. The query showed how gender may influence the likelihood of admission.
+   - The second analysis examined the distribution of admitted students by gender. This helps identify the proportion of male and female applicants who were admitted. The query showed how gender may influence the likelihood of admission.
+
+   SQL Query:
+   ```sql
+   SELECT gender, COUNT(*)
+   FROM mba_admission
+   WHERE admission = 'Admit'
+   GROUP BY gender;
+   ```
+
+### Part 3: Admission Outcomes for International Students
+   - This analysis focused on how international students fared across all admission outcomes (Admit, Waitlist, Deny). By checking the count of international students for each admission status, the analysis provided a breakdown of how           international students were treated in the admissions process.
+
+   SQL Query:
+   ```sql
+   -- Number of international students admitted
+   SELECT international, COUNT(*)
+   FROM mba_admission
+   WHERE admission = 'Admit'
+   GROUP BY international;
+
+   -- Number of international students waitlisted
+   SELECT international, COUNT(*)
+   FROM mba_admission
+   WHERE admission = 'Waitlist'
+   GROUP BY international;
+
+   -- Number of international students denied
+   SELECT international, COUNT(*)
+   FROM mba_admission
+   WHERE admission = 'Deny'
+   GROUP BY international;
+   ```
+
+### Part 4: Admission Outcomes by Major
+   - The final analysis examined the distribution of admission outcomes by applicants' undergraduate major (Business, STEM, Humanities). It helped understand how an applicant's major impacted their chances of being admitted, waitlisted,        or denied.
+
+   SQL Query:
+   ```sql
+   -- Admitted applicants by major
+   SELECT major, COUNT(*)
+   FROM mba_admission
+   WHERE admission = 'Admit'
+   GROUP BY major;
+
+   -- Waitlisted applicants by major
+   SELECT major, COUNT(*)
+   FROM mba_admission
+   WHERE admission = 'Waitlist'
+   GROUP BY major;
+
+   -- Denied applicants by major
+   SELECT major, COUNT(*)
+   FROM mba_admission
+   WHERE admission = 'Deny'
+   GROUP BY major;
+   ```
+
+
