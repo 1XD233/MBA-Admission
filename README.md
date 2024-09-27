@@ -1,4 +1,4 @@
-### MBA Admission Outcomes
+# MBA Admission Outcomes
 
 ## Introduction
 This project involves analyzing a dataset based on the Wharton Class of 2025's MBA admissions. The goal of the project is to understand the factors that influence MBA admissions, such as academic background, GMAT scores, work experience, and demographic information. Through this analysis, I aim to identify patterns in the admissions decisions, predict outcomes, and provide insights for prospective students or admission committees.
