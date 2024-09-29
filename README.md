@@ -1,7 +1,7 @@
 # MBA Admission Outcomes
 
 ## Introduction
-This project involves analyzing a dataset based on the Wharton Class of 2025's MBA admissions. The goal of the project is to understand the factors that influence MBA admissions, such as GPA, GMAT scores, work experience, undergraduate majorand, and international status. Through this analysis, I aim to identify patterns in the admissions decisions and provide insights for prospective students or admission committees.
+This project involves analyzing a dataset based on the Wharton Class of 2025's MBA admissions. The goal of the project is to understand the factors that influence MBA admissions, such as GPA, GMAT scores, work experience, undergraduate major, and international status. Through this analysis, I aim to identify patterns in the admissions decisions and provide insights for prospective students or admission committees.
 
 ## Background
 The dataset used in this project was downloaded from Kaggle and consists of synthetic data simulating real admission statistics. It includes various applicant attributes such as GPA, GMAT scores, work experience, and demographics like gender, race, and international status. The admission status includes three possible outcomes: Admit, Waitlist, or Deny.
