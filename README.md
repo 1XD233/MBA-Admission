@@ -103,7 +103,7 @@ Based on the analysis of the MBA admission dataset and the Tableau dashboard, se
 
 ### 1. Work Experience and Admission Outcome
    - The analysis shows that applicants who were admitted or waitlisted had an average of around 5 years of work experience, which is slightly higher than those who were denied.
-   - **Conclusion**: Applicants with more work experience have a better chance of being admitted or waitlisted. This suggests that work experience plays an important role in the admission decision process.
+   - **Conclusion**: Applicants with more work experience have a slightly higher chance of being admitted. This suggests that work experience plays an important role in the admission decision process.
 
 ### 2. GPA and GMAT Scores Across Admission Outcomes
    - The average GPA and GMAT scores increase progressively from applicants who were denied, to those who were waitlisted, and finally to those who were admitted.
